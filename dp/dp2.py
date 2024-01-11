@@ -1,6 +1,6 @@
 import numpy as np
 
-rr = [1,2,4,1,7,8,3]
+arr = [1,2,4,1,7,8,3]
 
 def rec_opt(arr, i):
     if i == 0:
