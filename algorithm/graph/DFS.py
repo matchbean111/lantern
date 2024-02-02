@@ -7,7 +7,6 @@ graph = {
     "F": ["D"]
 }
 
-
 def DFS(graph, s):
     stack = []
     stack.append(s)
@@ -21,6 +20,5 @@ def DFS(graph, s):
                 stack.append(w)
                 seen.add(w)
         print(vertex)
-
 
 DFS(graph, "A")
