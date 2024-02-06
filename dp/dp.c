@@ -11,5 +11,6 @@ int fibonacci(int n) {
 }
 
 int main() {
+    printf("%d\n", fibonacci(21));
     printf("%d\n",fibonacci(40));
 }
